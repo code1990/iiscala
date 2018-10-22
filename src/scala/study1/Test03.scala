@@ -46,7 +46,7 @@ class Test03 {
     var intArrayVar2 = for(i <- intArrayVar) yield i*2
     //定长数组转化后产生的仍然是定长数组 原数组不变
     var intArrayNoBuffer = Array(1,2,3)
-    
+
 
   }
 }
